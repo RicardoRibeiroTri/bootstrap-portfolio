@@ -1,5 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: #000;
+    background-color: rgb(17, 15, 27);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
+
+.bg-body-tertiary {
+    background-color: rgb(46, 41, 62) !important;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.container-fluid img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-brand:hover {
+    color: lightgray;
+}
+
+.navbar .container-fluid {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.navbar-toggler {
+    filter: invert(1);
+}
+
+.navbar .navbar-collapse {
+    justify-content: flex-end !important;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: lightgray !important;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.hero img {
+    width: 150px;
+}
+
+.hero p {
+    font-weight: 400;
+    width: 1000px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    width: 80%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+   width: 80%;
+   display: flex;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 42% !important;
+    height: 380px;
+
+    border: 3px solid rgb(74, 67, 100);
+}
+
+.card h5, p {
+    color: aliceblue;
+}
+
+.card a {
+    background-color: rgb(87, 80, 112);
+    border: none;
+}
+
+.card a:hover {
+    background-color: rgb(114, 106, 141);
+}
+
+.card-body {
+    background-color: rgb(46, 41, 62);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(180, 170, 213);
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .card {
+        width: 90% !important; 
+        height: 320px;
+    }
+}
+
+.learning {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.info img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+
+
+
